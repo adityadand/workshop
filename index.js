@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
 });
 
 // Posting update
-app.post('/update', (req, ) => {
+app.post('/update', (req, res) => {
   const { body: { name, update, password } } = req;
   if (!name || !update) {
     res.redirect('/error');
