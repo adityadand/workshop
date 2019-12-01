@@ -3,6 +3,7 @@
   src: URL('/font/Consolas.ttf') format('ttf');
 }
 
+
 @font-face {
   font-family: 'Consolas Bold';
   src: URL('/font/ConsolasBold.ttf') format('ttf');
@@ -43,7 +44,7 @@ html {
 }
 
 .page-button.active {
-  background: #818181;
+  background: #5020c0;
   color: white;
   border: 1px white solid;
 }
