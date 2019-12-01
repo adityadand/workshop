@@ -9,7 +9,7 @@
 }
 
 html {
-  background: black url(/img/background.png) left top no-repeat;
+  background: turquoise url(/img/background.png) left top no-repeat;
   background-size: cover;
   min-height: 100%;
 }
